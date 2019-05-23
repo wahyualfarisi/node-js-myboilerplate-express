@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title><%= title %></title>
+    <link rel="stylesheet" href="static/assets/css/style.css" />
+  </head>
+  <body>
+    <div class="login-form" style="margin-top: 15%;">
+      <h1>SECRET PROJECT</h1>
+      <form action="/auth" method="POST">
+        <input type="text" name="username" placeholder="Username" required />
+        <input
+          type="password"
+          name="password"
+          placeholder="Password"
+          required
+        />
+        <input type="submit" />
+      </form>
+    </div>
+  </body>
+</html>
